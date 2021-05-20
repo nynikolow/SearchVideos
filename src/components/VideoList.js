@@ -12,7 +12,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
 
 
     return (
-    <div className="ui relaxed divided list" style={{Color: "skyblue"}}> {renderedList} </div>
+    <div className="ui relaxed divided list" > {renderedList} </div>
     );
 };
 
